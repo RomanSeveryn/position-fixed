@@ -1,0 +1,33 @@
+body {
+box-sizing: border-box;
+margin: 0;
+width: 300vh;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  background: red;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+.circle-left {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.circle-right {
+  position: fixed;
+  top: 0;
+  right: 0
+}
+.circle-bottom-left {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.circle-bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
