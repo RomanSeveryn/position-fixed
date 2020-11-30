@@ -1,33 +1,40 @@
 body {
-box-sizing: border-box;
-margin: 0;
-width: 300vh;
+  box-sizing: border-box;
+  margin: 0;
+  min-height: 300vh;
 }
-.circle {
-  height: 100px;
-  width: 100px;
-  background: red;
-  border: 2px solid red;
-  border-radius: 50%;
+.position {
+  position: fixed;
 }
 .circle-left {
-  
-  position: fixed;
+  height: 110px;
+  width: 110px;
+  background: red;
+  border-radius: 50%;
   top: 0;
   left: 0;
 }
 .circle-right {
-  position: fixed;
+  height: 140px;
+  width: 140px;
+  background: green;
+  border-radius: 50%;
   top: 0;
-  right: 0
+  right: 0;
 }
 .circle-bottom-left {
-  position: fixed;
+  height: 180px;
+  width: 180px;
+  background: lightcoral;
+  border-radius: 50%;
   bottom: 0;
   left: 0;
 }
 .circle-bottom-right {
-  position: fixed;
+  height: 200px;
+  width: 200px;
+  background: lightseagreen;
+  border-radius: 50%;
   bottom: 0;
   right: 0;
 }
